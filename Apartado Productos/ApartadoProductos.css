@@ -1,0 +1,177 @@
+/* ===================================================== */
+/* CONFIGURACIÓN GENERAL                                 */
+/* ===================================================== */
+
+body{
+
+    margin: 0;
+    padding: 0;
+
+    background-color: #FFFFFF;
+
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+
+/* ===================================================== */
+/* APARTADO PRODUCTOS                                    */
+/* ===================================================== */
+
+.apartado-productos{
+
+    /*
+        Espacio superior para no chocar
+        con el menú fijo
+    */
+
+    padding-top: 40px;
+
+    text-align: center;
+
+}
+
+
+
+/* ===================================================== */
+/* TÍTULO PRODUCTOS                                      */
+/* ===================================================== */
+
+.titulo-productos{
+
+    /*
+        Tamaño solicitado
+    */
+
+    font-size: 36px;
+
+    font-weight: 400;
+
+    margin-bottom: 40px;
+
+
+
+    /*
+        Línea inferior
+    */
+
+    border-bottom: 3px solid black;
+
+    padding-bottom: 20px;
+
+}
+
+
+
+/* ===================================================== */
+/* CAJA DE CATEGORÍAS                                    */
+/* ===================================================== */
+
+.caja-categorias{
+
+    /*
+        Borde
+    */
+
+    border: 3px solid #2C2523;
+
+
+
+    /*
+        Bordes redondeados
+    */
+
+    border-radius: 10px;
+
+
+
+    /*
+        Ajuste automático
+    */
+
+    width: fit-content;
+
+    margin: auto;
+
+
+
+    /*
+        Espaciado interno
+    */
+
+    padding: 25px 30px;
+
+
+
+    /*
+        GRID
+    */
+
+    display: grid;
+
+
+
+    /*
+        Máximo 5 columnas
+    */
+
+    grid-template-columns: repeat(5, auto);
+
+
+
+    /*
+        Espaciado entre elementos
+    */
+
+    gap: 25px;
+
+}
+
+/* ===================================================== */
+/* CATEGORÍAS                                             */
+/* ===================================================== */
+
+.categoria{
+
+    font-size: 24px;
+
+    font-weight: 400;
+
+
+
+    /*
+        Quita subrayado
+    */
+
+    text-decoration: none;
+
+
+
+    /*
+        Color
+    */
+
+    color: #2C2523;
+
+
+
+    /*
+        Animación suave
+    */
+
+    transition: 0.2s;
+
+}
+
+
+
+/* ===================================================== */
+/* HOVER                                                  */
+/* ===================================================== */
+
+.categoria:hover{
+
+    opacity: 0.6;
+
+}

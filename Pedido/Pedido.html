@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TusOllas/Pedido</title>
+
+    <link rel="stylesheet" href="Pedido.css">
+
+</head>
+<body>
+
+
+
+    <!-- ===================================================== -->
+    <!-- MENU                                                  -->
+    <!-- ===================================================== -->
+
+    <iframe
+        src="../Menu/Menu.html"
+        class="iframe-menu"
+        frameborder="0">
+    </iframe>
+
+
+
+    <!-- ===================================================== -->
+    <!-- CONTENIDO                                             -->
+    <!-- ===================================================== -->
+
+    <section class="contenedor-pedido">
+
+
+
+        <h1 class="titulo-pedido">
+
+            HACER PEDIDO
+
+        </h1>
+
+
+
+        <div class="linea-titulo"></div>
+
+
+
+        <!-- ===================================================== -->
+        <!-- FORMULARIO                                            -->
+        <!-- ===================================================== -->
+
+        <form id="formulario-pedido">
+
+
+
+            <!-- NOMBRE -->
+
+            <div class="grupo-formulario">
+
+                <label>
+
+                    Nombres y Apellidos
+
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    required
+                >
+
+            </div>
+
+
+
+            <!-- FILA -->
+
+            <div class="fila-formulario">
+
+
+
+                <!-- DISTRITO -->
+
+                <div class="grupo-formulario">
+
+                    <label>
+
+                        Distrito
+
+                    </label>
+
+                    <select
+                        id="distrito"
+                        required
+                    >
+
+                        <option value="">
+
+                            Seleccionar
+
+                        </option>
+
+                        <option>
+
+                            Chupaca
+
+                        </option>
+
+                        <option>
+
+                            Huancayo
+
+                        </option>
+
+                        <option>
+
+                            Sicaya
+
+                        </option>
+
+                        <option>
+
+                            Chilca
+
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- DIRECCION -->
+
+                <div class="grupo-formulario">
+
+                    <label>
+
+                        Dirección para Delivery
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="direccion"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+
+            <!-- TELEFONO -->
+
+            <div class="grupo-formulario">
+
+                <label>
+
+                    Numero Telefonico
+
+                </label>
+
+                <input
+                    type="text"
+                    id="telefono"
+                    required
+                >
+
+            </div>
+
+
+
+            <!-- BOTON -->
+
+            <button
+                type="submit"
+                class="boton-pedido">
+
+                HACER PEDIDO
+
+            </button>
+            <p id="mensaje-enviado"
+                class="mensaje-enviado">
+
+            </p>
+
+
+        </form>
+
+
+
+        <!-- TEXTO -->
+
+        <p class="texto-final">
+
+            Una vez hecho el pedido, nosotros le llamaremos para coordinar mejor la entrega.
+
+        </p>
+
+        <!-- ===================================================== -->
+        <!-- MENSAJE EMERGENTE                                    -->
+        <!-- ===================================================== -->
+
+        <div id="popup-pedido">
+
+            <img
+            src="../Pedido/Imagenes/MensajePedido.png"
+            alt="Mensaje de pedido"
+            id="imagen-popup"
+            >
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================================================== -->
+    <!-- EMAILJS                                               -->
+    <!-- ===================================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+
+    <!-- ===================================================== -->
+    <!-- PRODUCTOS                                             -->
+    <!-- ===================================================== -->
+
+    <script src="../Productos/Productos.js"></script>
+
+
+
+    <!-- ===================================================== -->
+    <!-- JS                                                    -->
+    <!-- ===================================================== -->
+
+    <script src="Pedido.js"></script>
+
+</body>
+</html>

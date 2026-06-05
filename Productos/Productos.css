@@ -1,0 +1,213 @@
+/* ===================================================== */
+/* CONFIGURACIÓN GENERAL                                 */
+/* ===================================================== */
+
+body{
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #F5F5F5;
+
+}
+
+
+
+/* ===================================================== */
+/* FUENTES                                                */
+/* ===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Playfair+Display&display=swap');
+
+
+
+/* ===================================================== */
+/* CONTENEDOR GENERAL                                    */
+/* ===================================================== */
+
+.contenedor-productos{
+
+    width: 90%;
+
+    margin: auto;
+
+}
+
+
+
+/* ===================================================== */
+/* TITULO CATEGORIA                                      */
+/* ===================================================== */
+
+.titulo-categoria{
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 36px;
+
+    font-weight: 400;
+
+    margin-top: 40px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+/* ===================================================== */
+/* LINEA                                                  */
+/* ===================================================== */
+
+.linea-categoria{
+
+    width: 130px;
+
+    height: 3px;
+
+    background-color: black;
+
+    margin-bottom: 40px;
+    
+}
+
+
+
+/* ===================================================== */
+/* GRID PRODUCTOS                                        */
+/* ===================================================== */
+
+.grid-productos{
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 50px;
+
+}
+
+
+
+/* ===================================================== */
+/* TARJETA PRODUCTO                                      */
+/* ===================================================== */
+
+.tarjeta-producto{
+
+    border: 3px solid #2C2523;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    width: 240px;
+
+}
+
+
+
+/* ===================================================== */
+/* IMAGEN PRODUCTO                                       */
+/* ===================================================== */
+
+.imagen-producto{
+
+    width: 100%;
+
+}
+
+
+
+/* ===================================================== */
+/* MARCA                                                  */
+/* ===================================================== */
+
+.marca-producto{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 300;
+
+    margin-top: 20px;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+/* ===================================================== */
+/* NOMBRE PRODUCTO                                       */
+/* ===================================================== */
+
+.nombre-producto{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+/* ===================================================== */
+/* PRECIO                                                 */
+/* ===================================================== */
+
+.precio-producto{
+
+    background-color: #4A5D4E;
+
+    width: fit-content;
+
+    padding: 8px 18px;
+
+    border-radius: 10px;
+
+    color: white;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* ===================================================== */
+/* BOTON AGREGAR                                         */
+/* ===================================================== */
+
+.boton-agregar{
+
+    width: 100%;
+
+    border: none;
+
+    background-color: #722F37;
+
+    color: white;
+
+    border-radius: 10px;
+
+    padding: 12px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+}

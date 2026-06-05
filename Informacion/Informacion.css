@@ -1,0 +1,444 @@
+/* ===================================================== */
+/* CONFIGURACION GENERAL                                 */
+/* ===================================================== */
+
+body{
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #F5F5F5;
+
+}
+
+
+
+/* ===================================================== */
+/* FUENTES                                               */
+/* ===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap');
+
+
+
+/* ===================================================== */
+/* MENU                                                   */
+/* ===================================================== */
+
+.iframe-menu{
+
+    width: 100%;
+
+    height: 90px;
+
+    border: none;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: 999;
+
+}
+
+
+
+/* ===================================================== */
+/* CONTENEDOR PRINCIPAL                                  */
+/* ===================================================== */
+
+.contenedor-informacion{
+
+    width: 92%;
+
+    margin: auto;
+
+    padding-top: 110px;
+
+}
+
+
+
+/* ===================================================== */
+/* COLUMNAS SUPERIORES                                   */
+/* ===================================================== */
+
+.columna-imagenes{
+
+    display: flex;
+
+    gap: 20px;
+
+    float: left;
+
+}
+
+
+
+.columna-info{
+
+    width: 48%;
+
+    float: right;
+
+}
+
+
+
+/* ===================================================== */
+/* CAJA IMAGEN                                           */
+/* ===================================================== */
+
+.caja-imagen-principal{
+
+    width: 420px;
+
+    border: 3px solid #2C2523;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    position: relative;
+
+}
+
+
+
+/* ===================================================== */
+/* IMAGEN PRINCIPAL                                      */
+/* ===================================================== */
+
+.imagen-principal{
+
+    width: 100%;
+
+}
+
+
+
+/* ===================================================== */
+/* PRECIO                                                */
+/* ===================================================== */
+
+.precio-producto{
+
+    position: absolute;
+
+    bottom: 15px;
+
+    right: 20px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 32px;
+
+    font-weight: 700;
+
+}
+
+
+
+/* ===================================================== */
+/* MINI IMAGENES                                         */
+/* ===================================================== */
+
+.mini-imagenes{
+
+    border: 3px solid #2C2523;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    height: fit-content;
+
+}
+
+
+
+.mini-imagen{
+
+    width: 50px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* ===================================================== */
+/* TEXTOS                                                */
+/* ===================================================== */
+
+.texto-light{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 20px;
+
+    font-weight: 300;
+
+}
+
+
+
+.nombre-producto{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 24px;
+
+    font-weight: 600;
+
+}
+
+
+
+.descripcion-producto{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    line-height: 1.5;
+
+
+
+    /*
+        Permite que el texto baje
+        automáticamente
+    */
+
+    word-wrap: break-word;
+
+    overflow-wrap: break-word;
+
+
+
+    /*
+        Evita que se salga
+    */
+
+    width: 100%;
+
+}
+
+
+
+/* ===================================================== */
+/* LINEA                                                 */
+/* ===================================================== */
+
+.linea{
+
+    width: 100%;
+
+    height: 3px;
+
+    background-color: #2C2523;
+
+    margin: 20px 0;
+
+}
+
+
+
+/* ===================================================== */
+/* BOTON                                                 */
+/* ===================================================== */
+
+.boton-carrito{
+
+    border: none;
+
+    background-color: #722F37;
+
+    color: white;
+
+    border-radius: 10px;
+
+    padding: 18px 30px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+}
+
+
+
+/* ===================================================== */
+/* DETALLES                                              */
+/* ===================================================== */
+
+.detalles-producto{
+
+    clear: both;
+
+    display: flex;
+
+    gap: 30px;
+
+    margin-top: 50px;
+
+}
+
+
+
+.texto-detalles{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    line-height: 2;
+
+    word-break: break-all;
+
+    overflow-wrap: break-word;
+
+    width: 100%;
+
+    min-width: 0;
+
+}
+
+.columna-info{
+
+    width: 48%;
+
+    float: right;
+
+    overflow: hidden;
+
+}
+
+.columna-detalles{
+
+    flex: 1;
+
+    min-width: 0;
+
+}
+
+/* ===================================================== */
+/* ITEM DETALLE                                          */
+/* ===================================================== */
+
+.item-detalle{
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* ===================================================== */
+/* LINEA DETALLE                                         */
+/* ===================================================== */
+
+.linea-detalle{
+
+    width: 100%;
+
+    height: 1px;
+
+    background-color: #2C2523;
+
+    margin-top: 15px;
+
+}
+
+/* ===================================================== */
+/* LINEA VERTICAL                                        */
+/* ===================================================== */
+
+.linea-vertical{
+
+    width: 3px;
+
+    background-color: #2C2523;
+
+}
+
+/* ===================================================== */
+/* MENSAJE CARRITO                                       */
+/* ===================================================== */
+
+.mensaje-carrito{
+
+    width: fit-content;
+
+    margin-top: 20px;
+
+    padding: 15px 25px;
+
+    background-color: #4A5D4E;
+
+    color: white;
+
+    border-radius: 10px;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+
+
+    /*
+        Oculto inicialmente
+    */
+
+    display: none;
+
+}
+
+/* ===================================================== */
+/* COLORES                                               */
+/* ===================================================== */
+
+.texto-colores{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+}
+
+
+
+.lista-colores{
+
+    border: 3px solid #2C2523;
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    font-size: 16px;
+
+    background-color: white;
+
+}
