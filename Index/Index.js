@@ -87,11 +87,11 @@ cargarComponente(
 
 cargarComponente(
 
-    "Productos/Productos.html",
+    "../Productos/Productos.html",
 
-    "Productos/Productos.css",
+    "../Productos/Productos.css",
 
-    "Productos/Productos.js",
+    "../Productos/Productos.js",
 
     "productos"
 
