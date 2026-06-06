@@ -515,7 +515,7 @@ select{
 
     #imagen-popup{
 
-        width: 400px;
+        width: 150px;
 
     }
 
@@ -523,28 +523,3 @@ select{
 
 
 
-/* ===================================================== */
-/* CELULARES PEQUEÑOS                                    */
-/* ===================================================== */
-
-@media (max-width: 480px){
-
-    .titulo-pedido{
-
-        font-size: 24px;
-
-    }
-
-    .texto-final{
-
-        font-size: 18px;
-
-    }
-
-    #imagen-popup{
-
-        width: 400px;
-
-    }
-
-}
