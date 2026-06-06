@@ -521,5 +521,30 @@ select{
 
 }
 
+/* ===================================================== */
+/* CELULARES PEQUEÑOS                                    */
+/* ===================================================== */
+
+@media (max-width: 480px){
+
+    .titulo-pedido{
+
+        font-size: 24px;
+
+    }
+
+    .texto-final{
+
+        font-size: 18px;
+
+    }
+
+    #imagen-popup{
+
+        width: 150px;
+
+    }
+
+}
 
 
