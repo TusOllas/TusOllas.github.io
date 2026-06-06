@@ -132,11 +132,9 @@ body{
 
     #imagen-popup{
 
-     width: 75vw;
+     width: 180px;
 
-    max-width: 150px;
-
-    min-width: 50px;
+        max-width: 45vw;
 
 }
 
