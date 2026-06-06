@@ -175,3 +175,111 @@ body{
     opacity: 0.6;
 
 }
+
+/* ===================================================== */
+/* RESPONSIVE CELULAR                                    */
+/* ===================================================== */
+
+@media (max-width: 768px){
+
+    /* ===================================================== */
+    /* APARTADO                                               */
+    /* ===================================================== */
+
+    .apartado-productos{
+
+        padding-top: 20px;
+
+        width: 95%;
+
+        margin: auto;
+
+    }
+
+
+
+    /* ===================================================== */
+    /* TITULO                                                 */
+    /* ===================================================== */
+
+    .titulo-productos{
+
+        font-size: 24px;
+
+        margin-bottom: 25px;
+
+        padding-bottom: 15px;
+
+    }
+
+
+
+    /* ===================================================== */
+    /* CAJA CATEGORIAS                                        */
+    /* ===================================================== */
+
+    .caja-categorias{
+
+        width: 100%;
+
+        box-sizing: border-box;
+
+        padding: 18px;
+
+        border-radius: 15px;
+
+
+
+        /*
+            2 columnas bonitas
+        */
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 15px;
+
+        background-color: #F8F8F8;
+
+    }
+
+
+
+    /* ===================================================== */
+    /* CATEGORIAS                                             */
+    /* ===================================================== */
+
+    .categoria{
+
+        font-size: 14px;
+
+        text-align: center;
+
+        background-color: white;
+
+        padding: 10px 8px;
+
+        border-radius: 10px;
+
+        border: 2px solid #2C2523;
+
+        transition: 0.2s;
+
+    }
+
+
+
+    /* ===================================================== */
+    /* HOVER / TOUCH                                          */
+    /* ===================================================== */
+
+    .categoria:hover{
+
+        background-color: #95525B;
+
+        color: white;
+
+        opacity: 1;
+
+    }
+
+}
