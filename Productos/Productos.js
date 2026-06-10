@@ -8,37 +8,33 @@ const productos = [
 
         id: 1,
 
-        categoria: "OLLAS",
+        categoria: "OLLAS A PRESION",
 
-        marca: "VALESKA",
+        marca: "RECORD",
 
-        nombre: "JUEGO DE OLLAS - 6 PIEZAS",
+        nombre: "OLLA A PRESIÓN ALUM PRESS - 5L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 320.00",
 
-        imagen: "../Productos/Imagenes/Olla1.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Record/Normal/5L/Principal5L.png",
 
         imagenes: [
 
-        "../Productos/Imagenes/Olla1.png",
+        "../Productos/Imagenes/OllasPresion/Record/Normal/5L/Principal5L.png",
 
-        "../Productos/Imagenes/Sarten1.png",
+        "../Productos/Imagenes/OllasPresion/Record/Normal/RecomendacionesUso.png"
 
-        "../Productos/Imagenes/Olla3.png"
+        
 
     ],
 
         descripcion:
-        "Juego de ollas de aluminio con antiadherente de alta calidaASASSSASSAASASSAASd.",
+        "Prepara tus comidas favoritas de manera rápida y eficiente con la Olla a Presión de Aluminio Record de 5 litros. Su capacidad es ideal para familias pequeñas, permitiendo cocinar sopas, guisos, carnes y menestras en menos tiempo. Fabricada en aluminio resistente, ofrece una excelente distribución del calor y cuenta con sistemas de seguridad diseñados para brindar tranquilidad durante su uso.",
         
 
         colores: [
 
-            "Negro",
-
-            "Verde",
-
-            "Rojo"
+            "Gris Aluminio"
 
         ],
 
@@ -46,11 +42,15 @@ const productos = [
 
             "Material: Aluminio",
 
-            "Capacidad: Olla Principal 4.9 L + Caserola de 1 L + Sarten de 24 cm + Tetera 6 L + Olla Principal 4.9 L + Caserola de 1 L + Sarten de 24 cm + Tetera 6 L",
+            "Capacidad: 5 L",
             
-            "Modelo: Loreto",
+            "Modelo: Alum Press",
 
-            "Codigo: 1249843"
+            "Tamaño: 30cm x 121.2cm x 137.2cm",
+
+            "Tipo de Cocina: Gas, Eléctrica, Vitrocerámica",
+
+            "SKU:0264050246"
 
         ]
 
@@ -62,45 +62,45 @@ const productos = [
 
         id: 2,
 
-        categoria: "TETERAS",
+        categoria: "OLLAS A PRESION",
 
-        marca: "VALESKA",
+        marca: "RECORD",
 
-        nombre: "TETERA DE ACERO",
+        nombre: "OLLAS A PRESIÓN ALUM PRESS - 7L",
 
-        precio: "S/ 120.00",
+        precio: "S/ 429.90",
 
-        imagen: "../Productos/Imagenes/Sarten1.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Record/Normal/7L/Principal7L.png",
         
         imagenes: [
 
-        "../Productos/Imagenes/Olla1.png",
+        "../Productos/Imagenes/OllasPresion/Record/Normal/7L/Principal7L.png",
 
-        "../Productos/Imagenes/Sarten1.png",
-
-        "../Productos/Imagenes/Olla1.png"
+        "../Productos/Imagenes/OllasPresion/Record/Normal/RecomendacionesUso.png"
 
     ],
         descripcion:
-        "Tetera resistente de acero inoxidable.",
+        "La Olla a Presión de Aluminio Record de 7 litros es la opción perfecta para familias medianas que buscan ahorrar tiempo y energía en la cocina. Gracias a su amplia capacidad y construcción de aluminio de alta calidad, permite una cocción rápida y uniforme de diversos alimentos, conservando mejor sus sabores y nutrientes. Su diseño práctico y seguro la convierte en una excelente aliada para el día a día.",
 
         colores: [
 
-            "Negro",
-
-            "Plateado"
+            "Gris Aluminio"
 
         ],
 
         detalles: [
 
-            "Material: Acero",
+            "Material: Aluminio",
 
-            "Capacidad: 2 L",
+            "Capacidad: 7 L",
+            
+            "Modelo: Alum Press",
 
-            "Modelo: Loreto",
+            "Tamaño: 30cm x 125.8cm x 128.6cm",
 
-            "Codigo: 12345",
+            "Tipo de Cocina: Gas, Eléctrica, Vitrocerámica",
+
+            "SKU:0264070246"
 
         ]
 
@@ -112,32 +112,46 @@ const productos = [
 
         id: 3,
 
-        categoria: "LICUADORAS",
+        categoria: "OLLAS A PRESION",
 
-        marca: "VALESKA",
+        marca: "RECORD",
 
-        nombre: "LICUADORA INDUSTRIAL",
+        nombre: "OLLA A PRESIÓN ALUM PRESS- 12L",
 
         precio: "S/ 350.00",
 
-        imagen: "../Productos/Imagenes/Olla1.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Record/Normal/12L/Principal12L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Record/Normal/12L/Principal12L.png",
+
+        "../Productos/Imagenes/OllasPresion/Record/Normal/RecomendacionesUso.png"
+
+    ],
 
         descripcion:
-        "Licuadora industrial de alta potencia.",
+        "Diseñada para preparar grandes cantidades de alimentos, la Olla a Presión de Aluminio Record de 12 litros es ideal para familias numerosas, reuniones o negocios de comida. Su gran capacidad permite cocinar más porciones en una sola preparación, reduciendo tiempos de cocción y consumo de energía. Fabricada en aluminio resistente y equipada con sistemas de seguridad confiables, ofrece durabilidad, rendimiento y comodidad en cada uso.",
 
         colores: [
 
-            "Negro",
-
-            "Gris"
+            "Gris Aluminio"
 
         ],
 
         detalles: [
 
-            "Potencia: 1200W",
+            "Material: Aluminio",
 
-            "Capacidad: 2 L"
+            "Capacidad: 12 L",
+            
+            "Modelo: Alum Press",
+
+            "Tamaño: 40.9cm x 132.8cm x 130.9cm",
+
+            "Tipo de Cocina: Gas, Eléctrica, Vitrocerámica",
+
+            "SKU:0264120246"
 
         ]
 
@@ -149,33 +163,31 @@ const productos = [
 
         id: 4,
 
-        categoria: "SARTENES",
+        categoria: "OLLAS A PRESION",
 
-        marca: "VALESKA",
+        marca: "UNIVERSAL",
 
-        nombre: "SARTÉN ANTIADHERENTE",
+        nombre: "OLLA A PRESIÓN UNIVERSAL - 3L",
 
         precio: "S/ 90.00",
 
-        imagen: "../Productos/Imagenes/Sarten1.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Universal/Normal/3L/Principal3L.png",
          
         imagenes: [
 
-        "../Productos/Imagenes/Olla1.png",
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/3L/Principal3L.png",
 
-        "../Productos/Imagenes/Sarten1.png",
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/3L/Mini1.png",
 
-        "../Productos/Imagenes/Olla1.png"
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/3L/Mini2.png"
 
     ],
         descripcion:
-        "Sartén antiadherente de uso profesional.",
+        "Compacta y práctica, esta olla a presión Universal de 3 litros es ideal para hogares pequeños o preparaciones de menor volumen. Su fabricación en aluminio favorece una distribución uniforme del calor, mientras que el sistema de doble válvula de seguridad brinda mayor confianza durante la cocción. Una excelente opción para optimizar tiempo y energía en la cocina.",
 
         colores: [
 
-            "Negro",
-
-            "Rojo"
+            "Gris Aluminio",
 
         ],
 
@@ -183,7 +195,17 @@ const productos = [
 
             "Material: Aluminio",
 
-            "Tamaño: 24 cm"
+            "Capacidad: 3 L",
+            
+            "Modelo: L23315_03UNIVERSAL",
+
+            "Con revestimiento antiadherente.",
+
+            "Sistema de seguridad: Doble válvula de seguridad.",
+
+            "Tipo de Cocina: Gas, Eléctrica, Halógenas,  Vitrocerámica"
+
+          
 
         ]
 
@@ -193,33 +215,31 @@ const productos = [
 
         id: 5,
 
-        categoria: "LICUADORAS",
+        categoria: "OLLAS A PRESION",
 
-        marca: "VALESKA",
+        marca: "UNIVERSAL",
 
-        nombre: "JUEGO DE OLLAS - 9 PIEZAS",
+        nombre: "OLLA PRESIÓN UNIVERSAL - 6 L",
 
         precio: "S/ 200.00",
 
-        imagen: "../Productos/Imagenes/Olla1.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Universal/Normal/6L/Principal6L.png",
 
         imagenes: [
 
-        "../Productos/Imagenes/Olla1.png",
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/6L/Principal6L.png",
 
-        "../Productos/Imagenes/Sarten1.png",
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/6L/Mini1.png",
 
-        "../Productos/Imagenes/Olla3.png"
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/6L/Mini2.png"
 
         ],
          descripcion:
-        "Sartén antiadherente de uso profesional.",
+        "Diseñada para el uso diario, la olla a presión Universal de 6 litros combina capacidad, resistencia y seguridad. Su estructura de aluminio permite una cocción eficiente, ayudando a reducir los tiempos de preparación de carnes, legumbres, sopas y otros platillos. Equipada con doble válvula de seguridad para un funcionamiento confiable.",
 
         colores: [
 
-            "Negro",
-
-            "Rojo"
+            "Gris Aluminio"
 
         ],
 
@@ -227,7 +247,15 @@ const productos = [
 
             "Material: Aluminio",
 
-            "Tamaño: 24 cm"
+            "Capacidad: 6 L",
+            
+            "Espesor del aluminio: 2 mm",
+
+            "Con revestimiento antiadherente.",
+
+            "Sistema de seguridad: Doble válvula de seguridad.",
+
+            "Tipo de Cocina: Gas, Eléctrica, Halógenas,  Vitrocerámica"
 
         ]
     },
