@@ -42,19 +42,39 @@ document.getElementById("imagen-principal")
 .src = producto.imagen;
 
 
-document.getElementById("mini-imagen-1")
-.src = producto.imagenes[0];
+const mini1 = document.getElementById("mini-imagen-1");
+const mini2 = document.getElementById("mini-imagen-2");
+const mini3 = document.getElementById("mini-imagen-3");
 
+if(producto.imagenes[0]){
 
+    mini1.src = producto.imagenes[0];
 
-document.getElementById("mini-imagen-2")
-.src = producto.imagenes[1];
+}else{
 
+    mini1.style.display = "none";
 
+}
 
-document.getElementById("mini-imagen-3")
-.src = producto.imagenes[2];
+if(producto.imagenes[1]){
 
+    mini2.src = producto.imagenes[1];
+
+}else{
+
+    mini2.style.display = "none";
+
+}
+
+if(producto.imagenes[2]){
+
+    mini3.src = producto.imagenes[2];
+
+}else{
+
+    mini3.style.display = "none";
+
+}
 
 /* ===================================================== */
 /* DETALLES                                              */
