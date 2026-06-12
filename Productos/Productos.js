@@ -4,6 +4,10 @@
 
 const productos = [
 
+   /* 
+   Producto 1 R5
+   */ 
+
     {
 
         id: 1,
@@ -56,7 +60,9 @@ const productos = [
 
     },
 
-
+    /* 
+   Producto 2 R7
+   */ 
 
     {
 
@@ -106,8 +112,10 @@ const productos = [
 
     },
 
-
-
+    /* 
+   Producto 3 R12
+   */ 
+    
     {
 
         id: 3,
@@ -157,7 +165,9 @@ const productos = [
 
     },
 
-
+    /* 
+   Producto 4 U3
+   */ 
 
     {
 
@@ -211,6 +221,10 @@ const productos = [
 
     },
     
+    /* 
+   Producto 5 U6
+   */ 
+
     {
 
         id: 5,
@@ -259,6 +273,350 @@ const productos = [
 
         ]
     },
+
+    /* 
+   Producto 6 U8
+   */ 
+
+    {
+
+        id: 6,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "UNIVERSAL",
+
+        nombre: "OLLA PRESIÓN UNIVERSAL - 8 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Universal/Normal/8L/Principal8L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/8L/Principal8L.png",
+
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/8L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/8L/Mini2.png"
+
+        ],
+         descripcion:
+        "Con una capacidad ideal para familias medianas o numerosas, esta olla a presión de 8 litros ofrece un excelente rendimiento en cada preparación. Su diseño robusto y sistema de doble seguridad permiten cocinar con tranquilidad, obteniendo resultados uniformes y conservando mejor el sabor natural de los alimentos.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Capacidad: 8 L",
+            
+            "Espesor del aluminio: 2 mm",
+
+            "Modelo: L24802",
+
+            "Con revestimiento antiadherente.",
+
+            "Sistema de seguridad: Cuenta con 3 sistemas de seguridad para un funcionamiento confiable.",
+
+            "Tipo de Cocina: Gas, Eléctrica, Halógenas,  Vitrocerámica"
+
+        ]
+    },
+
+    /* 
+   Producto 7 U10
+   */ 
+
+    {
+
+        id: 7,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "UNIVERSAL",
+
+        nombre: "OLLA PRESIÓN UNIVERSAL - 10 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Universal/Normal/10L/Principal10L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/10L/Principal10L.png",
+
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/10L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/10L/Mini2.png"
+
+        ],
+         descripcion:
+        "Pensada para quienes requieren mayor capacidad sin sacrificar eficiencia, la olla a presión Universal de 10 litros facilita la preparación de grandes porciones en menos tiempo. Fabricada con materiales resistentes y equipada con doble válvula de seguridad, garantiza durabilidad, practicidad y un desempeño confiable en cada uso.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Capacidad: 10 L",
+            
+            "Dimensiones: 28cm x 30cm x 28cm",
+
+            "Modelo: L24802",
+
+            "Con revestimiento antiadherente.",
+
+            "Sistema de seguridad: Cuenta con 5 sistemas de seguridad para un funcionamiento confiable.",
+
+            "Tipo de Cocina: Gas, Eléctrica, Halógenas,  Vitrocerámica"
+
+        ]
+    },
+
+    /* 
+   Producto 8 U13
+   */ 
+
+    {
+
+        id: 8,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "UNIVERSAL",
+
+        nombre: "OLLA PRESIÓN UNIVERSAL - 13 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Universal/Normal/13L/Principal13L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/13L/Principal13L.png",
+
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/13L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Universal/Normal/13L/Mini2.png"
+
+        ],
+         descripcion:
+        "La olla a presión Universal de 13 litros es una solución ideal para familias numerosas, reuniones o negocios gastronómicos. Su amplia capacidad permite cocinar grandes cantidades de alimentos de forma rápida y uniforme. Gracias a su construcción en aluminio de alta resistencia y su sistema de doble válvula de seguridad, ofrece un equilibrio perfecto entre rendimiento, seguridad y durabilidad.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Capacidad: 13 L",
+
+            "Dimensiones: 40 cm x 48 cm x 28 cm",
+
+            "Modelo: L24802",
+
+            "Con revestimiento antiadherente.",
+
+            "Sistema de seguridad: Cuenta con 5 sistemas de seguridad para un funcionamiento confiable.",
+
+            "Tipo de Cocina: Gas, Eléctrica, Halógenas,  Vitrocerámica"
+
+        ]
+    },
+
+    /* 
+   Producto 9 S3
+   */ 
+
+    {
+
+        id: 9,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "SUPREMA",
+
+        nombre: "OLLA PRESIÓN SUPREMA - 3 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Mini2.png"
+
+        ],
+         descripcion:
+        "Diseñada para quienes buscan practicidad en cada preparación, nuestra olla a presión Suprema de 3 litros ofrece el tamaño perfecto para hogares pequeños. Su estructura de aluminio garantiza una distribución uniforme del calor, permitiendo cocinar de forma rápida, segura y eficiente. Ideal para preparar porciones diarias sin ocupar demasiado espacio en la cocina.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Capacidad: 3 L",
+
+            "Dimensiones: 21 cm x 20 cm x 18 cm",
+
+            "Modelo: SU-YZPR018-3L",
+
+            "Con revestimiento antiadherente.",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica"
+
+        ]
+    },
+
+    /* 
+   Producto 10 S5 (Por hacer, no existe en aluminio)
+   */ 
+
+    {
+
+        id: 10,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "SUPREMA",
+
+        nombre: "OLLA PRESIÓN SUPREMA - 5 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Mini2.png"
+
+        ],
+         descripcion:
+        "Diseñada para quienes buscan practicidad en cada preparación, nuestra olla a presión Suprema de 3 litros ofrece el tamaño perfecto para hogares pequeños. Su estructura de aluminio garantiza una distribución uniforme del calor, permitiendo cocinar de forma rápida, segura y eficiente. Ideal para preparar porciones diarias sin ocupar demasiado espacio en la cocina.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Capacidad: 3 L",
+
+            "Dimensiones: 21 cm x 20 cm x 18 cm",
+
+            "Modelo: SU-YZPR018-3L",
+
+            "Con revestimiento antiadherente.",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica"
+
+        ]
+    },
+
+    /* 
+   Producto 11 S7
+   */ 
+
+
+    /* 
+   Producto 12 S9
+   */ 
+
+    /* 
+   Producto 13 S11
+   */ 
+
+
+    /* 
+   Producto 14 S13
+   */ 
+  
+    /* 
+   Producto 15 B5
+   */ 
+
+    {
+
+        id: 15,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "BRIKENIA",
+
+        nombre: "OLLA PRESIÓN BRIKENIA ACERO INOXIDABLE - 5 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/5L/Principal5L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/5L/Principal5L.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/5L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/5L/Mini2.png"
+
+        ],
+         descripcion:
+        "Descubre una nueva forma de cocinar con la Olla a Presión Brikenia de 5 litros. Fabricada en acero quirúrgico de alta calidad, ofrece mayor resistencia, durabilidad y una excelente conservación del calor. Su tamaño es ideal para hogares pequeños que buscan preparar alimentos de manera rápida, segura y eficiente, manteniendo el sabor y las propiedades naturales de cada ingrediente.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Acero Quirúrgico 1810",
+
+            "Capacidad: 5 L",
+
+            "Dimensiones: 21 cm x 20 cm x 18 cm",
+
+            "Modelo: BK-P55L-1A",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica"
+
+        ]
+    },
+
+    /* 
+   Producto 16 B7
+   */    
 ];
 
 
