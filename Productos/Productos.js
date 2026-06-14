@@ -513,11 +513,11 @@ const productos = [
 
         precio: "S/ 200.00",
 
-        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/5L/Principal5L.png",
 
         imagenes: [
 
-        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png"
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/5L/Principal5L.png"
 
         ],
          descripcion:
@@ -560,11 +560,11 @@ const productos = [
 
         precio: "S/ 200.00",
 
-        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/7L/Principal7L.png",
 
         imagenes: [
 
-        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png"
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/7L/Principal7L.png"
 
         ],
          descripcion:
@@ -607,11 +607,11 @@ const productos = [
 
         precio: "S/ 200.00",
 
-        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/9L/Principal9L.png",
 
         imagenes: [
 
-        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png"
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/9L/Principal9L.png"
 
         ],
          descripcion:
@@ -654,11 +654,11 @@ const productos = [
 
         precio: "S/ 200.00",
 
-        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/11L/Principal11L.png",
 
         imagenes: [
 
-        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png"
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/11L/Principal11L.png"
 
         ],
          descripcion:
@@ -701,11 +701,11 @@ const productos = [
 
         precio: "S/ 200.00",
 
-        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/13L/Principal13L.png",
 
         imagenes: [
 
-        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png"
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/13L/Principal13L.png"
 
         ],
          descripcion:
@@ -1280,7 +1280,15 @@ document.addEventListener(
 
 );
 
+/* ===================================================== */
+/* ORDEN ALEATORIO                                       */
+/* ===================================================== */
 
+productos.sort(
+
+    () => Math.random() - 0.5
+
+);
 
 /* ===================================================== */
 /* CARGA INICIAL                                         */
