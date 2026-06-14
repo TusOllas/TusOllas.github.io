@@ -4,6 +4,11 @@
 
 const productos = [
 
+
+/* ===================================================== */
+/* OLLAS A PRESION                                      */
+/* ===================================================== */
+   
    /* 
    Producto 1 R5
    */ 
@@ -493,7 +498,7 @@ const productos = [
     },
 
     /* 
-   Producto 10 S5 (Por hacer, no existe en aluminio)
+   Producto 10 S5 
    */ 
 
     {
@@ -512,15 +517,11 @@ const productos = [
 
         imagenes: [
 
-        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
-
-        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Mini1.png",
-
-        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Mini2.png"
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png"
 
         ],
          descripcion:
-        "Diseñada para quienes buscan practicidad en cada preparación, nuestra olla a presión Suprema de 3 litros ofrece el tamaño perfecto para hogares pequeños. Su estructura de aluminio garantiza una distribución uniforme del calor, permitiendo cocinar de forma rápida, segura y eficiente. Ideal para preparar porciones diarias sin ocupar demasiado espacio en la cocina.",
+        "Diseñada para brindar comodidad y rendimiento, la Olla a Presión Suprema de 5 litros es perfecta para familias pequeñas. Su estructura de aluminio ligero y resistente facilita una cocción uniforme, permitiendo preparar una gran variedad de recetas en menos tiempo y conservando mejor el sabor de los alimentos.",
 
         colores: [
 
@@ -532,11 +533,9 @@ const productos = [
 
             "Material: Aluminio",
 
-            "Capacidad: 3 L",
+            "Capacidad: 5 L",
 
-            "Dimensiones: 21 cm x 20 cm x 18 cm",
-
-            "Modelo: SU-YZPR018-3L",
+            "Modelo: SU-YZPR018-5L",
 
             "Con revestimiento antiadherente.",
 
@@ -549,20 +548,190 @@ const productos = [
    Producto 11 S7
    */ 
 
+    {
+
+        id: 11,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "SUPREMA",
+
+        nombre: "OLLA PRESIÓN SUPREMA - 7 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png"
+
+        ],
+         descripcion:
+        "La Olla a Presión Suprema de 7 litros ofrece el equilibrio perfecto entre capacidad y practicidad. Ideal para familias medianas, permite cocinar mayores cantidades de alimentos de manera rápida y segura. Su construcción de aluminio garantiza durabilidad y una eficiente distribución del calor.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Capacidad: 7 L",
+
+            "Modelo: SU-YZPR018-7L",
+
+            "Con revestimiento antiadherente.",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica"
+
+        ]
+    },
 
     /* 
    Producto 12 S9
    */ 
 
+    {
+
+        id: 12,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "SUPREMA",
+
+        nombre: "OLLA PRESIÓN SUPREMA - 9 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png"
+
+        ],
+         descripcion:
+        "Pensada para quienes necesitan preparar más porciones en cada cocción, la Olla a Presión Suprema de 9 litros combina resistencia, seguridad y eficiencia. Su diseño funcional ayuda a optimizar el tiempo en la cocina mientras mantiene una cocción uniforme para todo tipo de preparaciones.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Capacidad: 9 L",
+
+            "Modelo: SU-YZPR018-9L",
+
+            "Con revestimiento antiadherente.",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica"
+
+        ]
+    },
+
     /* 
    Producto 13 S11
    */ 
 
+    {
+
+        id: 13,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "SUPREMA",
+
+        nombre: "OLLA PRESIÓN SUPREMA - 11 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png"
+
+        ],
+         descripcion:
+        "Con una amplia capacidad, la Olla a Presión Suprema de 11 litros es ideal para familias numerosas o reuniones especiales. Fabricada en aluminio de alta resistencia, permite cocinar grandes cantidades de alimentos en menos tiempo, ofreciendo practicidad y un excelente desempeño en cada uso.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Capacidad: 11 L",
+
+            "Modelo: SU-YZPR018-11L",
+
+            "Con revestimiento antiadherente.",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica"
+
+        ]
+    },
 
     /* 
    Producto 14 S13
    */ 
   
+    {
+
+        id: 14,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "SUPREMA",
+
+        nombre: "OLLA PRESIÓN SUPREMA - 13 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png"
+
+        ],
+         descripcion:
+        "La Olla a Presión Suprema de 13 litros está diseñada para afrontar las preparaciones más exigentes. Su gran capacidad la convierte en una excelente opción para hogares numerosos, eventos o pequeños negocios gastronómicos. Resistente, eficiente y confiable, permite obtener resultados óptimos mientras reduce tiempos de cocción y consumo de energía.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Capacidad: 13 L",
+
+            "Modelo: SU-YZPR018-13L",
+
+            "Con revestimiento antiadherente.",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica"
+
+        ]
+    },
+
     /* 
    Producto 15 B5
    */ 
@@ -579,15 +748,15 @@ const productos = [
 
         precio: "S/ 200.00",
 
-        imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/5L/Principal5L.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Normal/5L/Principal5L.png",
 
         imagenes: [
 
-        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/5L/Principal5L.png",
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/5L/Principal5L.png",
 
-        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/5L/Mini1.png",
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/5L/Mini1.png",
 
-        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/5L/Mini2.png"
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/5L/Mini2.png"
 
         ],
          descripcion:
@@ -595,7 +764,7 @@ const productos = [
 
         colores: [
 
-            "Gris Aluminio"
+            "Gris Acero"
 
         ],
 
@@ -609,16 +778,326 @@ const productos = [
 
             "Modelo: BK-P55L-1A",
 
-            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica"
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
 
         ]
     },
 
     /* 
    Producto 16 B7
-   */    
-];
+   */
+  
+    {
 
+        id: 16,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "BRIKENIA",
+
+        nombre: "OLLA PRESIÓN BRIKENIA ACERO INOXIDABLE - 7 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Normal/7L/Principal7L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/7L/Principal7L.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/7L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/7L/Mini2.png"
+
+        ],
+         descripcion:
+        "La Olla a Presión Brikenia de 7 litros combina elegancia, tecnología y rendimiento para brindar una experiencia de cocina superior. Su construcción en acero quirúrgico garantiza una larga vida útil y una limpieza sencilla, mientras que su amplia capacidad la convierte en la opción perfecta para preparar comidas completas para toda la familia.",
+
+        colores: [
+
+            "Gris Acero"
+
+        ],
+
+        detalles: [
+
+            "Material: Acero Quirúrgico 1810",
+
+            "Capacidad: 7 L",
+
+            "Dimensiones: 24 cm de diámetro y altura.",
+
+            "Modelo: BK-P75L-1A",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
+
+        ]
+    },
+
+    /* 
+   Producto 17 B9
+   */  
+
+    {
+
+        id: 17,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "BRIKENIA",
+
+        nombre: "OLLA PRESIÓN BRIKENIA ACERO INOXIDABLE - 9 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Normal/9L/Principal9L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/9L/Principal9L.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/9L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/9L/Mini2.png"
+
+        ],
+         descripcion:
+        "Diseñada para quienes necesitan mayor capacidad sin renunciar a la calidad, la Olla a Presión Brikenia de 9 litros permite cocinar grandes porciones con rapidez y eficiencia. Gracias a su estructura de acero quirúrgico y sus avanzados sistemas de seguridad, ofrece un desempeño confiable y resultados excepcionales en cada preparación.",
+
+        colores: [
+
+            "Gris Acero"
+
+        ],
+
+        detalles: [
+
+            "Material: Acero Quirúrgico 1810",
+
+            "Capacidad: 9 L",
+
+            "Modelo: BK-P95L-1A",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
+
+        ]
+    },
+
+    /* 
+   Producto 18 B18
+   */
+
+    {
+
+        id: 18,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "BRIKENIA",
+
+        nombre: "OLLA PRESIÓN BRIKENIA ALUMINIO - 18L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Normal/18L/Principal18L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/18L/Principal18L.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/18L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/18L/Mini2.png"
+
+        ],
+         descripcion:
+        "La Olla a Presión Brikenia de 18 litros ha sido diseñada para quienes necesitan máxima capacidad y rendimiento en cada preparación. Fabricada en aluminio de alta resistencia, permite una rápida distribución del calor para lograr una cocción eficiente y uniforme. Su sistema de múltiples dispositivos de seguridad brinda confianza durante el uso, convirtiéndola en una excelente opción para familias numerosas, reuniones o negocios gastronómicos.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Capacidad: 18 L",
+
+            "SKU: PC-1809BR",
+
+            "Diámetro: 32 cm",
+
+            "Modelo: BK-P95L-1A",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
+
+        ]
+    },
+
+    /* 
+   Producto 19 B20
+   */
+
+    {
+
+        id: 19,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "BRIKENIA",
+
+        nombre: "OLLA PRESIÓN BRIKENIA ACERO INOXIDABLE - 20 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Normal/20L/Principal20L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/20L/Principal20L.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/20L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Normal/20L/Mini2.png"
+
+        ],
+         descripcion:
+        "La máxima capacidad para las mayores exigencias. La Olla a Presión Brikenia de 20 litros ha sido desarrollada para quienes requieren preparar grandes cantidades de alimentos con eficiencia, seguridad y calidad profesional. Fabricada en acero quirúrgico de alto rendimiento, combina robustez, higiene y durabilidad para acompañarte durante años en la cocina.",
+
+        colores: [
+
+            "Gris Acero"
+
+        ],
+
+        detalles: [
+
+            "Material: Acero Quirúrgico 1810",
+
+            "Capacidad: 20 L",
+
+            "Dimensiones: 39cm x 34cm x 32cm",
+
+            "Modelo: BK-PA2000",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
+
+        ]
+    },
+
+    /* 
+   Producto 20 B6
+   */
+
+    {
+
+        id: 20,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "BRIKENIA",
+
+        nombre: "OLLA PRESIÓN BRIKENIA NUEVO SISTEMA ACERO INOXIDABLE - 6 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/6L/Principal6L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/6L/Principal6L.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/6L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/6L/Mini2.png"
+
+        ],
+         descripcion:
+        "La Olla a Presión Brikenia de 6 litros incorpora un moderno sistema de cierre y seguridad diseñado para brindar una experiencia de cocción más práctica y confiable. Fabricada en acero quirúrgico de alta resistencia, permite cocinar alimentos en menos tiempo, conservando mejor sus nutrientes y sabor natural. Con Brikenia, cocinar es más rápido, seguro y eficiente.",
+
+        colores: [
+
+            "Gris Acero"
+
+        ],
+
+        detalles: [
+
+            "Material: Acero Quirúrgico",
+
+            "Capacidad: 6 L",
+
+            "Modelo: BK-K60L",
+
+            "Sistema: Nuevo sistema de cierre de seguridad",
+
+                        "5 sistemas de seguridad para un funcionamiento confiable",
+
+            "Dispositivo flotador para control de presión",
+
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
+
+        ]
+    },
+
+    /* 
+   Producto 21 B8
+   */
+
+    {
+
+        id: 21,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "BRIKENIA",
+
+        nombre: "OLLA PRESIÓN BRIKENIA NUEVO SISTEMA ACERO INOXIDABLE - 8 L",
+
+        precio: "S/ 200.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/8L/Principal8L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/8L/Principal8L.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/8L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/8L/Mini2.png"
+
+        ],
+         descripcion:
+        "Diseñada para quienes necesitan mayor capacidad sin sacrificar comodidad, la Olla a Presión Brikenia de 8 litros combina tecnología, resistencia y seguridad en un solo producto. Su fabricación en acero quirúrgico garantiza durabilidad y una excelente conservación del calor, permitiendo preparar carnes, legumbres, sopas y otros alimentos de forma rápida y uniforme. Gracias a su nuevo sistema de seguridad y control de presión, ofrece un funcionamiento confiable para el uso diario en el hogar.",
+
+        colores: [
+
+            "Gris Acero"
+
+        ],
+
+        detalles: [
+
+            "Material: Acero Quirúrgico",
+
+            "Capacidad: 8 L",
+
+            "Modelo: BK-K80L",
+
+            "Sistema: Nuevo sistema de cierre de seguridad",
+
+            "Dispositivo flotador para control de presión",
+
+            "5 sistemas de seguridad para un funcionamiento confiable",
+            
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
+
+        ]
+    }
+];
+/* ===================================================== */
 
 
 /* ===================================================== */
