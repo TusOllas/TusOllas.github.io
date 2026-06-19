@@ -1113,15 +1113,15 @@ const productos = [
 
         precio: "S/ 210.00",
 
-        imagen: "../Productos/Imagenes/OllasPresion/DeniphI/Normal/4L/Principal4L.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Deniphi/Normal/4L/Principal4L.png",
 
         imagenes: [
 
-        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/4L/Principal4L.png",
+        "../Productos/Imagenes/OllasPresion/Deniphi/Normal/4L/Principal4L.png",
 
-        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/4L/Mini1.png",
+        "../Productos/Imagenes/OllasPresion/Deniphi/Normal/4L/Mini1.png",
 
-        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/4L/Mini2.png"
+        "../Productos/Imagenes/OllasPresion/Deniphi/Normal/4L/Mini2.png"
 
         ],
          descripcion:
@@ -1162,15 +1162,15 @@ const productos = [
 
         precio: "S/ 245.00",
 
-        imagen: "../Productos/Imagenes/OllasPresion/DeniphI/Normal/6L/Principal6L.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Deniphi/Normal/6L/Principal6L.png",
 
         imagenes: [
 
-        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/6L/Principal6L.png",
+        "../Productos/Imagenes/OllasPresion/Deniphi/Normal/6L/Principal6L.png",
 
-        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/6L/Mini1.png",
+        "../Productos/Imagenes/OllasPresion/Deniphi/Normal/6L/Mini1.png",
 
-        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/6L/Mini2.png"
+        "../Productos/Imagenes/OllasPresion/Deniphi/Normal/6L/Mini2.png"
 
         ],
          descripcion:
@@ -1211,15 +1211,15 @@ const productos = [
 
         precio: "S/ 290.00",
 
-        imagen: "../Productos/Imagenes/OllasPresion/DeniphI/Normal/8L/Principal8L.png",
+        imagen: "../Productos/Imagenes/OllasPresion/Deniphi/Normal/8L/Principal8L.png",
 
         imagenes: [
 
-        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/8L/Principal8L.png",
+        "../Productos/Imagenes/OllasPresion/Deniphi/Normal/8L/Principal8L.png",
 
-        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/8L/Mini1.png",
+        "../Productos/Imagenes/OllasPresion/Deniphi/Normal/8L/Mini1.png",
 
-        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/8L/Mini2.png"
+        "../Productos/Imagenes/OllasPresion/Deniphi/Normal/8L/Mini2.png"
 
         ],
          descripcion:
