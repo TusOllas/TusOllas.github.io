@@ -23,7 +23,7 @@ const productos = [
 
         nombre: "OLLA A PRESIÓN ALUM PRESS - 5L",
 
-        precio: "S/ 320.00",
+        precio: "S/ 335.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Record/Normal/5L/Principal5L.png",
 
@@ -79,7 +79,7 @@ const productos = [
 
         nombre: "OLLAS A PRESIÓN ALUM PRESS - 7L",
 
-        precio: "S/ 429.90",
+        precio: "S/ 385.90",
 
         imagen: "../Productos/Imagenes/OllasPresion/Record/Normal/7L/Principal7L.png",
         
@@ -131,7 +131,7 @@ const productos = [
 
         nombre: "OLLA A PRESIÓN ALUM PRESS- 12L",
 
-        precio: "S/ 350.00",
+        precio: "S/ -.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Record/Normal/12L/Principal12L.png",
 
@@ -184,7 +184,7 @@ const productos = [
 
         nombre: "OLLA A PRESIÓN UNIVERSAL - 3L",
 
-        precio: "S/ 90.00",
+        precio: "S/ 170.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Universal/Normal/3L/Principal3L.png",
          
@@ -240,7 +240,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN UNIVERSAL - 6 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 195.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Universal/Normal/6L/Principal6L.png",
 
@@ -293,7 +293,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN UNIVERSAL - 8 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 215.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Universal/Normal/8L/Principal8L.png",
 
@@ -348,7 +348,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN UNIVERSAL - 10 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 280.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Universal/Normal/10L/Principal10L.png",
 
@@ -403,7 +403,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN UNIVERSAL - 13 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 320.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Universal/Normal/13L/Principal13L.png",
 
@@ -458,7 +458,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN SUPREMA - 3 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 105.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/3L/Principal3L.png",
 
@@ -511,7 +511,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN SUPREMA - 5 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 125.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/5L/Principal5L.png",
 
@@ -558,7 +558,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN SUPREMA - 7 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 140.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/7L/Principal7L.png",
 
@@ -605,7 +605,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN SUPREMA - 9 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 165.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/9L/Principal9L.png",
 
@@ -652,7 +652,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN SUPREMA - 11 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 180.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/11L/Principal11L.png",
 
@@ -699,7 +699,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN SUPREMA - 13 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 210.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Suprema/Normal/13L/Principal13L.png",
 
@@ -746,7 +746,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN BRIKENIA ACERO INOXIDABLE - 5 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ -.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Normal/5L/Principal5L.png",
 
@@ -797,7 +797,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN BRIKENIA ACERO INOXIDABLE - 7 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ -.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Normal/7L/Principal7L.png",
 
@@ -848,7 +848,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN BRIKENIA ACERO INOXIDABLE - 9 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ -.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Normal/9L/Principal9L.png",
 
@@ -897,7 +897,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN BRIKENIA ALUMINIO - 18L",
 
-        precio: "S/ 200.00",
+        precio: "S/ -.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Normal/18L/Principal18L.png",
 
@@ -950,7 +950,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN BRIKENIA ACERO INOXIDABLE - 20 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ -.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Normal/20L/Principal20L.png",
 
@@ -1001,7 +1001,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN BRIKENIA NUEVO SISTEMA ACERO INOXIDABLE - 6 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 210.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/6L/Principal6L.png",
 
@@ -1056,7 +1056,7 @@ const productos = [
 
         nombre: "OLLA PRESIÓN BRIKENIA NUEVO SISTEMA ACERO INOXIDABLE - 8 L",
 
-        precio: "S/ 200.00",
+        precio: "S/ 245.00",
 
         imagen: "../Productos/Imagenes/OllasPresion/Brikenia/Sistema/8L/Principal8L.png",
 
@@ -1091,6 +1091,255 @@ const productos = [
             "Dispositivo flotador para control de presión",
 
             "5 sistemas de seguridad para un funcionamiento confiable",
+            
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
+
+        ]
+    },
+
+    /* 
+   Producto 22 D4
+   */
+
+    {
+
+        id: 22,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "DENIPHI",
+
+        nombre: "OLLA PRESIÓN DENIPHI - 4 L",
+
+        precio: "S/ 210.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/DeniphI/Normal/4L/Principal4L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/4L/Principal4L.png",
+
+        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/4L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/4L/Mini2.png"
+
+        ],
+         descripcion:
+        "La Olla a Presión Deniphi de 4 litros ha sido diseñada para quienes buscan practicidad, seguridad y eficiencia en la cocina. Su capacidad es ideal para parejas y familias pequeñas, permitiendo preparar una gran variedad de recetas en menos tiempo. Fabricada con materiales resistentes y equipada con sistemas de seguridad de alto desempeño, ofrece una cocción uniforme que ayuda a conservar mejor el sabor y las propiedades de los alimentos.",
+
+        colores: [
+
+            "Gris Acero"
+
+        ],
+
+        detalles: [
+
+            "Material: Acero Inoxidable",
+
+            "Capacidad: 4 L",
+
+            "Múltiples dispositivos de seguridad",
+            
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
+
+        ]
+    },
+
+    /* 
+   Producto 23 D6
+   */
+
+    {
+
+        id: 23,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "DENIPHI",
+
+        nombre: "OLLA PRESIÓN DENIPHI - 6 L",
+
+        precio: "S/ 245.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/DeniphI/Normal/6L/Principal6L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/6L/Principal6L.png",
+
+        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/6L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/6L/Mini2.png"
+
+        ],
+         descripcion:
+        "Diseñada para el uso diario, la Olla a Presión Deniphi de 6 litros combina capacidad, durabilidad y tecnología de seguridad para ofrecer resultados excepcionales en cada preparación. Su estructura de acero inoxidable favorece una distribución eficiente del calor, permitiendo cocinar carnes, menestras, sopas y guisos de forma rápida y uniforme.",
+
+        colores: [
+
+            "Gris Acero"
+
+        ],
+
+        detalles: [
+
+            "Material: Acero Inoxidable",
+
+            "Capacidad: 6 L",
+
+            "Múltiples dispositivos de seguridad",
+            
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
+
+        ]
+    },
+
+    /* 
+   Producto 24 D8
+   */
+
+    {
+
+        id: 24,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "DENIPHI",
+
+        nombre: "OLLA PRESIÓN DENIPHI - 8 L",
+
+        precio: "S/ 290.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/DeniphI/Normal/8L/Principal8L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/8L/Principal8L.png",
+
+        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/8L/Mini1.png",
+
+        "../Productos/Imagenes/OllasPresion/DeniphI/Normal/8L/Mini2.png"
+
+        ],
+         descripcion:
+        "La Olla a Presión Deniphi de 8 litros es la opción ideal para familias numerosas o para quienes preparan grandes cantidades de alimentos. Gracias a su amplia capacidad y construcción robusta, permite cocinar de manera rápida y segura mientras conserva mejor los nutrientes y sabores naturales de cada ingrediente. Su diseño moderno y sus avanzados sistemas de seguridad brindan confianza y comodidad en cada uso.",
+
+        colores: [
+
+            "Gris Acero"
+
+        ],
+
+        detalles: [
+
+            "Material: Acero Inoxidable",
+
+            "Capacidad: 8 L",
+
+            "Múltiples dispositivos de seguridad",
+            
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
+
+        ]
+    },
+
+   /* 
+   Producto 25 R6
+   */
+
+    {
+
+        id: 25,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "RECORD",
+
+        nombre: "OLLA PRESIÓN RECORD - 6 L",
+
+        precio: "S/ 360.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Record/Normal/6L/Principal6L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Record/Normal/6L/Principal6L.png",
+
+        "../Productos/Imagenes/OllasPresion/Record/Normal/RecomendacionesUso.png",
+
+
+        ],
+         descripcion:
+        "La Olla a Presión Record de 6 litros es la aliada perfecta para preparar comidas deliciosas en menos tiempo. Fabricada en aluminio de alta calidad, ofrece una excelente conducción del calor para lograr una cocción rápida y uniforme. Su capacidad la hace ideal para familias medianas, permitiendo cocinar desde sopas y guisos hasta carnes y menestras con mayor eficiencia. Diseñada pensando en la seguridad y la comodidad, incorpora sistemas de protección que brindan confianza durante su uso, además de asas ergonómicas resistentes al calor para un manejo más seguro.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Capacidad: 6 L",
+
+            "Espesor de cuerpo: 0.28cm",
+
+            "Cuenta con cuatro sistemas de seguridad",
+            
+            "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
+
+        ]
+    },
+
+    /* 
+   Producto 26 R8
+   */
+
+    {
+
+        id: 26,
+
+        categoria: "OLLAS A PRESION",
+
+        marca: "RECORD",
+
+        nombre: "OLLA PRESIÓN RECORD - 8 L",
+
+        precio: "S/ 445.00",
+
+        imagen: "../Productos/Imagenes/OllasPresion/Record/Normal/8L/Principal8L.png",
+
+        imagenes: [
+
+        "../Productos/Imagenes/OllasPresion/Record/Normal/8L/Principal8L.png",
+
+        "../Productos/Imagenes/OllasPresion/Record/Normal/RecomendacionesUso.png",
+
+
+        ],
+         descripcion:
+        "La Olla a Presión Record de 8 litros ha sido diseñada para quienes necesitan una mayor capacidad sin renunciar a la rapidez y seguridad en la cocina. Su estructura de aluminio resistente permite una óptima transferencia del calor, acelerando la preparación de alimentos y garantizando resultados uniformes. Su diseño funcional y sus sistemas de seguridad la convierten en una herramienta indispensable para el hogar.",
+
+        colores: [
+
+            "Gris Aluminio"
+
+        ],
+
+        detalles: [
+
+            "Material: Aluminio",
+
+            "Dimensiones: 38.3cm x 25.8cm x 28.6cm",
+
+            "Capacidad: 8 L",
+
+            "Espesor de cuerpo: 0.28cm",
+
+            "Cuenta con cuatro sistemas de seguridad",
             
             "Tipo de Cocina: Gas, Leña, Eléctrica, Halógenas,  Vitrocerámica, Inducción"
 
